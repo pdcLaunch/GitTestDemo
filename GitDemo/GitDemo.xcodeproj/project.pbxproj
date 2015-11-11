@@ -15,6 +15,7 @@
 		BC8B59E51BF320B300FD0673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8B59E31BF320B300FD0673 /* LaunchScreen.storyboard */; };
 		BC8B59F01BF320B300FD0673 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8B59EF1BF320B300FD0673 /* GitDemoTests.m */; };
 		BC8B59FB1BF320B400FD0673 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8B59FA1BF320B400FD0673 /* GitDemoUITests.m */; };
+		BC8B5A0B1BF328B900FD0673 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8B5A0A1BF328B900FD0673 /* AViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BC8B59F61BF320B400FD0673 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8B59FA1BF320B400FD0673 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		BC8B59FC1BF320B400FD0673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8B5A091BF328B900FD0673 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		BC8B5A0A1BF328B900FD0673 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		BC8B59D41BF320B300FD0673 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC8B5A081BF3289400FD0673 /* A */,
 				BC8B59D81BF320B300FD0673 /* AppDelegate.h */,
 				BC8B59D91BF320B300FD0673 /* AppDelegate.m */,
 				BC8B59DB1BF320B300FD0673 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				BC8B59FC1BF320B400FD0673 /* Info.plist */,
 			);
 			path = GitDemoUITests;
+			sourceTree = "<group>";
+		};
+		BC8B5A081BF3289400FD0673 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BC8B5A091BF328B900FD0673 /* AViewController.h */,
+				BC8B5A0A1BF328B900FD0673 /* AViewController.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8B5A0B1BF328B900FD0673 /* AViewController.m in Sources */,
 				BC8B59DD1BF320B300FD0673 /* ViewController.m in Sources */,
 				BC8B59DA1BF320B300FD0673 /* AppDelegate.m in Sources */,
 				BC8B59D71BF320B300FD0673 /* main.m in Sources */,
@@ -496,6 +510,7 @@
 				BC8B5A011BF320B400FD0673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8B5A021BF320B400FD0673 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				BC8B5A041BF320B400FD0673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8B5A051BF320B400FD0673 /* Build configuration list for PBXNativeTarget "GitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				BC8B5A071BF320B400FD0673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
